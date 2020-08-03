@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-//Follow all URLs containing "api.github.com/orgs/BoomTownROI", and display all id values for all 200 status responses. For non status 200 responses display error code and id key.
+//Follow all URLs containing "api.github.com/orgs/BoomTownROI" and display all id values for all 200 status responses. For non status 200 responses display error code and id key.
 
 async function getOutputData() {
   try {
